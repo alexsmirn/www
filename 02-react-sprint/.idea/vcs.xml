@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ccounter-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dop-lessons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/home-work-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-native/js-native-react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/local-storage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/micro-tasks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/micro-tasks-routing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zoom-lessons" vcs="Git" />
+  </component>
+</project>

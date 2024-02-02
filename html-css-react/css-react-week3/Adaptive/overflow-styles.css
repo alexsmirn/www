@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 60px 1fr;
+    grid-template-areas:
+    "header header"
+    "sidebar main";
+
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+
+    border: 1px black solid;
+    background-color: #38aace;
+}
+
+aside {
+    grid-area: sidebar;
+
+    border: 1px black solid;
+    background-color: #9cffa2;
+}
+
+main {
+    grid-area: main;
+
+    border: 1px black solid;
+    background-color: #b6b6b6;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.someInfo {
+    border: 1px solid black;
+    height: 200px;
+
+    display: flex;
+    gap: 20px;
+
+    padding: 20px;
+    margin-bottom: 50px;
+
+    overflow: auto;
+}
+
+.box {
+    background-color: #8167da;
+    min-width: 500px;
+    font-size: 2rem;
+}
+
+.content {
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: calc(100% - 200px - 50px);
+    overflow: auto;
+}
